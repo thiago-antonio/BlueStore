@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueStore | Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+            <h1 class="logo">BLUE<span>STORE</span></h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contatos</li>
+                    <li>conta</li>
+                </ul>
+            </nav>
+                <div class="nav-icon-container">
+                    <img src="/img/cart.png">
+                    <img src="/img/menu.png" class="menu-button">
+                </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-inner-content">
+            <div class="header-botton-side">
+                <div class="header-botton-side-left">
+                    <h2>Deia Um Novo Estilo Para Seu Trabalho!</h2>
+                    <p>
+                        Sucesso nem sempre tem haver com grandeza. Tem haver com consistencia. Trabalho duro consistente supera o sucesso. A grandeza vira
+                    </p>
+                    <button>Ver Agora &#8594</button>
+                </div>
+                <div class="header-botton-side-right">
+                    <img src="/img/gaming-msi-header.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="cols cols-3">
+                    <img src="/img/products/product-1.png" alt="">
+                    <img src="/img/products/product-2.png" alt="">
+                    <img src="/img/products/product-3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="page-inner-content">
+                <h3>Produtos Selecionados</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cols cols-4">
+                    <div class="product">
+                        <img src="/img/products/product-4.png" alt="">
+                        <p class="Product-name">Combo gamer Meetion</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                        <p class="product-price">4,000.00 <span>MZN</span></p>
+                    </div>
+
+                    <div class="product">
+                        <img src="/img/products/product-5.png" alt="">
+                        <p class="Product-name">Combo gamer Meetion</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                        <p class="product-price">4,000.00 <span>MZN</span></p>
+                    </div>
+
+                    <div class="product">
+                        <img src="/img/products/product-6.png" alt="">
+                        <p class="Product-name">Combo gamer Meetion</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                        <p class="product-price">4,000.00 <span>MZN</span></p>
+                    </div>
+
+                    <div class="product">
+                        <img src="/img/products/product-7.png" alt="">
+                        <p class="Product-name">Combo gamer Meetion</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                        <p class="product-price">4,000.00 <span>MZN</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+
+</body>
+</html>
